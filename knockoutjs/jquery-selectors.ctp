@@ -1,3 +1,6 @@
+<?php $this->startIfEmpty('script');?>
+<?php echo $this->Html->script('http://knockoutjs.com/downloads/knockout-2.2.1.js'); ?>
+<?php $this->end();?>
 <div class="firstView offset1 span10 margin-bottom body">
   <h3>Concatenation!</h3>
   <p>First name: <input data-bind="value: firstName" /></p>

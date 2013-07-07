@@ -1,5 +1,5 @@
 <?php $this->startIfEmpty('script');?>
-<?php echo $this->Html->script('knockout-2.2.1'); ?>
+<?php echo $this->Html->script('http://knockoutjs.com/downloads/knockout-2.2.1.js'); ?>
 <?php $this->end();?>
 <div id="firstView" class="firstView offset1 span10 margin-bottom body">
   <h3>Concatenation!</h3>

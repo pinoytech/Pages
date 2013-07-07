@@ -1,6 +1,6 @@
 <?php $this->startIfEmpty('script');?>
-<?php echo $this->Html->script('underscore-min'); ?>
-<?php echo $this->Html->script('backbone-min'); ?>
+<?php echo $this->Html->script('http://underscorejs.org/underscore-min.js'); ?>
+<?php echo $this->Html->script('http://backbonejs.org/backbone-min.js'); ?>
 <?php $this->end();?>
 <script>
 $(function(){
