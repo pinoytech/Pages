@@ -14,7 +14,6 @@
   <p>Second value: <input data-bind="value: secondValue" /></p>
   <h4>Hello, <span data-bind="text: calculatedValue"></span>!</h4>
 </div>
-
 <script>
 function ViewModel() {
     this.firstName = ko.observable("John");
